@@ -1,17 +1,16 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="appContainer">
+    <Drum/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Drum from './pages/Drum.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Drum
   }
 }
 </script>
@@ -22,7 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #14035d;
   margin-top: 60px;
 }
 </style>
